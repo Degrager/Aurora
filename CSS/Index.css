@@ -53,6 +53,12 @@ li a:hover {
 	text-shadow: none;
 }
 
+li a:last-child:hover {
+	background-color: transparent;
+	color: white;
+	text-shadow: 0 0 4px #161616;
+}
+
 .active {
 	background-color: #133993;
 }
@@ -92,9 +98,13 @@ p {
 /* Creators */ 
 
 .Creators {
+
+}
+
+.Creatorstitle {
 	margin-top: 100px;
 	text-decoration: underline;
-	font-size: 35px
+	font-size: 35px;
 }
 
 .square {
@@ -108,11 +118,13 @@ p {
 .Zander {
 	padding-top: 55px;
 	font-size: 25px;
+	
 }
 
 .Zandertitle {
 	padding-bottom: 10px;
 	font-weight: normal;
+
 }
 
 .Zanderimage {
@@ -133,6 +145,7 @@ p {
 .Kohltertitle {
 	padding-bottom: 10px;
 	font-weight: normal;
+
 }
 
 .Kohlterimage {
