@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Fonts */ 
+
+@font-face {
+	font-family: "Rounded Sans";
+	src: url(Fonts/Rounded_Sans.ttf);
+}
+
+@font-face {
+	font-family: 'Varela Round';
+	src: url(Fonts/VarelaRound-Regular.otf);
+}
+
+@font-face {
+	font-family: "SFNS Display";
+	src: url(Fonts/SanFranciscoDisplay-Bold.ttf);
+}
+
+/* Navigation Bar */
+
+ul {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: -webkit-linear-gradient(-90deg, rgb(12, 100, 100), rgb(10, 42, 72));
+	text-shadow: 0 0 4px #161616;
+	box-shadow: 0 0 14px #111111;
+	
+}
+
+li {
+	float: left;
+	border-right: 2px solid #9F9F9F;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: white;
+	color: #333;
+	text-shadow: none;
+}
+
+.active {
+	background-color: #133993;
+}
+
+/* Main Text */ 
+
+h1 {
+	font-size: 110px;
+	font-family: 'Varela Round';
+	font-weight: normal;
+	letter-spacing: 5px;
+	margin-left: 10px;
+	text-shadow: 0 0 15px #161616;
+}
+
+p {
+	font-size: 25px;
+	margin-top: -80px
+}
+
+/* Links */
+
+.buttonyoutube {
+	font-family: "Varela Round";
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+    background: red;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 13px;
+	
+	
+}
+
+/* Creators */ 
+
+.Creators {
+	margin-top: 100px;
+	text-decoration: underline;
+	font-size: 35px
+}
+
+.square {
+	height: 50px;
+	width: 50px;
+	background-color: aqua;
+}
+
+/* Creator Zander */
+
+.Zander {
+	padding-top: 55px;
+	font-size: 25px;
+}
+
+.Zandertitle {
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+.Zanderimage {
+	height: 150px;
+	width: auto;
+	border-radius: 100px;
+	box-shadow: 0 0 60px -10px #161616;
+	
+}
+
+/* Creator Kohlter */ 
+
+.Kohlter {
+	padding-top: 55px;
+	font-size: 25px;
+}
+
+.Kohltertitle {
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+.Kohlterimage {
+	height: 150px;
+	width: auto;
+	border-radius: 100px;
+	box-shadow: 0 0 60px -10px #161616;
+	
+}
+
+/* General Body */ 
+
+body {
+	
+    background: -webkit-linear-gradient(0deg, rgb(18, 77, 82), rgb(10, 42, 72));
+    background: linear-gradient(0deg, rgb(18, 77, 82), rgb(10, 42, 72));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-family: 'Varela Round';
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+}
