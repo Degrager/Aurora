@@ -76,7 +76,7 @@ h1 {
 
 p {
 	font-size: 25px;
-	margin-top: -80px
+	margin-top: -90px;
 }
 
 /* Links */
@@ -128,7 +128,7 @@ p {
 }
 
 .Zanderimage {
-	height: 150px;
+	height: 150px; 
 	width: auto;
 	border-radius: 100px;
 	box-shadow: 0 0 60px -10px #161616;
